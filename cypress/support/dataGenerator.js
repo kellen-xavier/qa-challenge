@@ -20,6 +20,18 @@ function generateUserData() {
   };
 }
 
+function generateExistingUserData() {
+  return {
+    firstName: 'João',
+    lastName: 'Silva',
+    formattedBirthDate: '01011990',
+    cpf: '123.456.789-00',
+    email: 'joao.silva@example.com',
+    password: 'senhaForte123'
+  };
+}
+
 module.exports = {
   generateUserData,
+  generateExistingUserData
 };
