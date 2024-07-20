@@ -1,0 +1,21 @@
+# Dependências do Node
+node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Diretórios de build
+dist/
+build/
+# Dependências do Cypress
+.cypress_cache/
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+# Configurações do editor
+.idea/
+.vscode/
+# Ambiente
+.env
