@@ -23,8 +23,8 @@ describe('Dado que usuário deseja realizar um cadastro, Quando preencher o form
     cy.wait(2000);
     cy.get('[data-cy="input-signup-personal-data-lgpd"]').click();
     cy.get('[data-cy="button-signup_submit_button_1"]').click();
-    cy.get('[data-cy="input-signup-address-cep"]').type('91350240');
     cy.get('[data-cy="input-signup-address-neighborhood"]').type('Cristo Redentor');
+    cy.get('[data-cy="input-signup-address-cep"]').type('91350240');
     cy.get('[data-cy="input-signup-address-number"]').type('54');
     cy.get('[data-cy="input-signup-address-complement"]').type('Apto lar 1');
     cy.get('[data-cy="button-signup_submit_button_3"]').should('be.visible').click();
